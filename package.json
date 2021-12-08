@@ -20,7 +20,9 @@
 		"mongoose": "^6.0.7",
 		"multer": "^1.4.3",
 		"multer-storage-cloudinary": "^4.0.0",
+		"node-fetch": "^3.1.0",
 		"nodemon": "^2.0.12",
+		"package.json": "^2.0.1",
 		"path": "^0.12.7"
 	},
 	"devDependencies": {},
