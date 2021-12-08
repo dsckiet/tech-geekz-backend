@@ -7,12 +7,25 @@ dotenv.config({ path: './config/.ENV' });
 connectDB();
 
 const course = require('./routes/courses');
+const profile = require('./routes/profile');
 
 const app = express();
+
+// Body Parser
+app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
 app.use('/courses', course);
+
+app.use('/profile', profile);
+
+app.use('/', (req, res) => {
+	return res.status(200).json({
+		success: true,
+		msg: `Home Page`
+	});
+});
 
 app.listen(PORT, err => {
 	if (err) {
