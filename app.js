@@ -1,6 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
+const cors = require('cors');
 
 dotenv.config({ path: './config/.ENV' });
 
@@ -10,6 +11,7 @@ const course = require('./routes/courses');
 const profile = require('./routes/profile');
 
 const app = express();
+app.use(cors());
 
 // Body Parser
 app.use(express.json());
