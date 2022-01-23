@@ -1,7 +1,9 @@
 <p align="left">
 	<img width="300" src="https://drive.google.com/uc?export=view&id=1XfLhaaUsef3sD7c46TC_ZoaorKg-uBFM" />
-	<h2 align="left"> < ADD PROJECT TITLE > </h2>
-	<h4 align="left"> < ADD PROJECT DESCRIPTION > <h4>
+	<h2 align="left"> Tech Geekz </h2>
+	<h4 align="left"> Tech Geekz is a user friendly website which aims on helping young aspirants, by providing the with the best rated and reviewed courses from world's best sites. It also helps aspirants to grow their skill by following their favorite courses , and covers many top skills required by MNC's in this fast growing tech world.
+
+Apart from this it will also show courses progress, provide useful resources , and also help to solve doubts using QnA. <h4>
 </p>
 
 ---
@@ -10,34 +12,46 @@
 
 
 ## Functionalities
-- [ ]  < ADD FUNCTIONALITY >
-- [ ]  < ADD FUNCTIONALITY >
+	
+### Tech Geekz website should include a mix of the following:
 
+1. A Home Page with recently viewed and opted courses.
+2. A profile page with necessary details about the user.
+3. A courses section showing multiple courses.
+4. A progress page showing progress of your courses.
+5. A QnA section to solve the queries.
+6. A Resource section providing links and roadmaps.
+7. Help, Contact Us page for any doubts.
 <br>
 
 
 ## Instructions to run
 
-* Pre-requisites:
-	-  < add pre-requisite >
-	-  < add pre-requisite >
+* Pre-requisites Backend:
+	-  Node.JS
+	-  Express.JS
+	-  MongoDB (database)
+	-  Heroku (for deployement)
 
 * Directions to setup/install
-```bash
-< insert code >
-```
+	
+1. Install Node.JS
+2. ```bash
+	npm i
+   ```
+3.Install MongoDB Compass (GUI for MongoDB)
 
 * Directions to execute
 
 ```bash
-< insert code >
+npm start
 ```
 
 <br>
 
 ## Contributors
 
-* [ < ADD YOUR NAME > ](ADD_PROFILE_URL_HERE)
+* [ Shubh Chaurasia ](https://github.com/s-infinity21)
 
 
 
